@@ -43,7 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #222;
-  background-color: #fafafa;
+  background-color: #fff;
   font: 400 14px/1.625 Segoe UI;
   font-size: calc(14px + (20 - 14) * (100vw - 320px) / (750 - 320));
 }
