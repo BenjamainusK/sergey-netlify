@@ -29,14 +29,18 @@ body {
   font-size: 16px;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
-.h_iframe iframe {
-    width:100%;
-    height:100%;
-}
-.h_iframe {
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    width:100%;
 }
   
 </style>
@@ -58,9 +62,9 @@ body {
       <p>De laatste tijd zondert Jake (Jayvy Zwijnenburg) zich steeds verder af van zijn vrienden, en dit blijft niet onopgemerkt. Sarah (Claire Ploum) – een oude vriendin van Jake – probeert te achterhalen wat er met Jake aan de hand is, maar Jake blijkt moeilijk te doorgronden. Filmproductiegroep TakeONE presenteert u een frisse blik op een veelbesproken maatschappelijke verschijning in onze short film Kleurloos.
 
       <p>Geproduceerd door Tristan Bishop, Benjamin Karman en Casper Liem
-      Cinematografie en camerawerk door Benjamin Karman
-      Script en regie door Casper Liem
-      Geluid en props door Tristan Bishop</p>
+      <br>Cinematografie en camerawerk door Benjamin Karman</br>
+      <br>Script en regie door Casper Liem</br>
+      <br>Geluid en props door Tristan Bishop</br></p>
 
       <p>TakeONE ©2020</p>
       
@@ -72,9 +76,10 @@ body {
      </style>
       <hr class="new1">
      <p><i>De Film Kleurloos</i></p>
-   <div class="h_iframe">
-    <iframe src="https://www.youtube.com/embed/FxF6pn36UUU" frameborder="0" allowfullscreen></iframe>
-   </div>
+   <div class="container">
+<iframe src="https://www.youtube.com/embed/FxF6pn36UUU" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
       </center> 
       
       <center style="background-color:#ffffff">
